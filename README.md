@@ -2,7 +2,7 @@
 
 Автоматическая настройка бесплатного DNS сервера для обхода **именно санкционных (внешних)** ограничений через NRPT+DoH для всей Windows.
 
-[NRPT](https://learn.microsoft.com/en-us/windows-server/networking/dns/name-resolution-policy-table) (Name Resolution Policy Table) — позволяет Windows выбирать DNS-сервер в зависимости от запрашиваемого домена.
+[NRPT](https://learn.microsoft.com/en-us/windows-server/networking/dns/name-resolution-policy-table) (Name Resolution Policy Table) — позволяет Windows выбирать DNS-сервер в зависимости от запрашиваемого домена. То есть обычные сайты продолжают использовать основной DNS, а выбранный DNS применяется только к нужным сервисам.
 
 > [!IMPORTANT]
 > Этот репозиторий не является официальной частью `dns.malw.link` и не связан с автором исходного проекта. Он использует публичные списки и публичный Cloudflare Gateway, предоставляемые `dns.malw.link`.
@@ -13,7 +13,7 @@
 
 ## Установка
 
-Скачай репозиторий и запусти `configure.bat` (права администратора не требуются).
+Скачай репозиторий и запусти `configure.bat` (права администратора подтягиваются автоматически).
 
 ## Использование
 
@@ -35,13 +35,17 @@
 	- Microsoft Copilot
 	- и прочие...
 
-3. Применение настроек и очистка системного DNS-кэша Windows.
+3. Применение настроек и очистка DNS-кэша Windows.
+	
+	Системный DNS сетевого адаптера не изменяется.
 
 **(НЕОБЯЗАТЕЛЬНО)** `Scripts/Pull-Domains.ps1` обновляет список доменов (`domains.json`) из [dns.malw.link](https://github.com/ImMALWARE/dns.malw.link/tree/master/lists). Не требуется, пока они актуальны, так как уже сохранены в этом репозитории.
 
+**(ТОЛЬКО, ЕСЛИ ЗНАЕШЬ, ЧТО ДЕЛАЕШЬ)** `Scripts/Update-MalwHosts.ps1` обновляет файл `hosts` из [dns.malw.link](https://github.com/ImMALWARE/dns.malw.link/blob/master/hosts). Вообще не требуется при использовании DNS сервера.
+
 ## Прочее
 
-Проект был создан, поскольку я нуждаюсь в надёжном основном DNS сервере, например [DoH от Cloudflare](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/), но мне требуется доступ к некоторым, ограничившим мне к ним доступ, сервисам. Именно к ним я настраиваю пользовательский DNS сервер (**возможно** нестабильный и медленный, - то почему я и использую NRPT). Делюсь как инструментом для ознакомления и свободной доработки.
+Проект был создан, поскольку я нуждаюсь в надёжном основном DNS сервере, например [DoH от Cloudflare](https://developers.cloudflare.com/1.1.1.1/encryption/dns-over-https/), но мне требуется сервисы, ограничившие доступ из моего региона. Именно к ним я настраиваю пользовательский DNS сервер (**возможно** нестабильный и медленный, - то почему я и использую NRPT). Делюсь как инструментом для ознакомления и свободной доработки.
 
 Списки доменов и DNS предоставляются проектом [ImMALWARE/dns.malw.link](https://github.com/ImMALWARE/dns.malw.link). Также используются DNS сервера [Comms.ru](https://www.comss.ru/) и [xbox-dns.ru](https://xbox-dns.ru). Инструмент для запуска от имени администратора [bol-van/elevator](https://github.com/bol-van/elevator).
 
