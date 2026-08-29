@@ -17,16 +17,7 @@
 
 ## Использование
 
-1. Выбор DNS-сервера:
-
-	- [`dns.malw.link`](https://info.dns.malw.link/) 
-	- `cloudflare-malw` - более стабильный аналог первого.
-	- [`dns.comss.one`](https://www.comss.ru/page.php?id=7315)
-	- [`xbox-dns.ru`](https://xbox-dns.ru)
-
-	Можно ввести свой, поддерживающий DoH.
-
-2. Выбор необходимых ресурсов из списка:
+1. Выбор необходимых ресурсов из списка:
 	- Gemini (Google)
 	- ChatGPT (OpenAI)
 	- Grok (xAI)
@@ -34,6 +25,17 @@
 	- GitHub Copilot
 	- Microsoft Copilot
 	- и прочие...
+
+	Есть пункт для очистки всех правил, то есть отмены изменений, внесённых данным инструментом.
+
+2. Выбор DNS-сервера:
+
+	- [`dns.malw.link`](https://info.dns.malw.link/) 
+	- `cloudflare-malw` - более стабильный аналог первого.
+	- [`dns.comss.one`](https://www.comss.ru/page.php?id=7315)
+	- [`xbox-dns.ru`](https://xbox-dns.ru)
+
+	Можно ввести свой, поддерживающий DoH.
 
 3. Применение настроек и очистка DNS-кэша Windows.
 	
