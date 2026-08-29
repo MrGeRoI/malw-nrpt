@@ -1,0 +1,760 @@
+{
+    "schemaVersion":  1,
+    "generatedAt":  "2026-08-29T09:13:11.3629285Z",
+    "sources":  {
+                    "exact":  "https://raw.githubusercontent.com/ImMALWARE/dns.malw.link/master/lists/domains.txt",
+                    "subtree":  "https://raw.githubusercontent.com/ImMALWARE/dns.malw.link/master/lists/domains_with_subdomains.txt"
+                },
+    "totals":  {
+                   "exact":  84,
+                   "subtree":  66,
+                   "categories":  67
+               },
+    "categories":  [
+                       {
+                           "key":  "google",
+                           "name":  "Google / Gemini",
+                           "exact":  [
+                                         "aisandbox-pa.googleapis.com",
+                                         "aistudio.google.com",
+                                         "aitestkitchen.withgoogle.com",
+                                         "alkalimakersuite-pa.clients6.google.com",
+                                         "antigravity-unleash.goog",
+                                         "assistant-s3-pa.googleapis.com",
+                                         "daily-cloudcode-pa.googleapis.com",
+                                         "fitbit.google.com",
+                                         "fitbit-pa.googleapis.com",
+                                         "fitbitvestibuleshim-pa.googleapis.com",
+                                         "gemini.google.com",
+                                         "generativelanguage.googleapis.com",
+                                         "jules.google.com",
+                                         "labs.google",
+                                         "notebooklm.google.com",
+                                         "o.pki.goog",
+                                         "proactivebackend-pa.googleapis.com",
+                                         "robinfrontend-pa.googleapis.com",
+                                         "stitch.withgoogle.com",
+                                         "webchannel-alkalimakersuite-pa.clients6.google.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "openai",
+                           "name":  "ChatGPT / OpenAI / Sora",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "chatgpt.com",
+                                           "oaistatic.com",
+                                           "oaiusercontent.com",
+                                           "openai.com"
+                                       ]
+                       },
+                       {
+                           "key":  "grok",
+                           "name":  "Grok / xAI",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "grok.com",
+                                           "grokusercontent.com",
+                                           "x.ai"
+                                       ]
+                       },
+                       {
+                           "key":  "claude",
+                           "name":  "Claude / Anthropic",
+                           "exact":  [
+                                         "api.anthropic.com",
+                                         "console.anthropic.com"
+                                     ],
+                           "subtree":  [
+                                           "claude.ai",
+                                           "claude.com"
+                                       ]
+                       },
+                       {
+                           "key":  "groq",
+                           "name":  "Groq",
+                           "exact":  [
+                                         "api.groq.com",
+                                         "console.groq.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "microsoft",
+                           "name":  "Microsoft Copilot / Bing / Xbox",
+                           "exact":  [
+                                         "copilot.microsoft.com",
+                                         "edgeservices.bing.com",
+                                         "rewards.bing.com",
+                                         "sydney.bing.com",
+                                         "xgpuweb.gssv-play-prod.xboxlive.com",
+                                         "xgpuwebf2p.gssv-play-prod.xboxlive.com",
+                                         "xsts.auth.xboxlive.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "spotify",
+                           "name":  "Spotify",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "scdn.co",
+                                           "spotify.com",
+                                           "spotifycdn.com"
+                                       ]
+                       },
+                       {
+                           "key":  "githubcopilot",
+                           "name":  "GitHub Copilot",
+                           "exact":  [
+                                         "api.github.com"
+                                     ],
+                           "subtree":  [
+                                           "githubcopilot.com"
+                                       ]
+                       },
+                       {
+                           "key":  "jetbrains",
+                           "name":  "JetBrains / JetBrains AI",
+                           "exact":  [
+                                         "account.jetbrains.com",
+                                         "api.jetbrains.ai",
+                                         "datalore.jetbrains.com",
+                                         "download.jetbrains.com",
+                                         "plugins.jetbrains.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "elevenlabs",
+                           "name":  "ElevenLabs / ElevenReader",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "elevenlabs.io",
+                                           "elevenreader.io"
+                                       ]
+                       },
+                       {
+                           "key":  "tidal",
+                           "name":  "TIDAL",
+                           "exact":  [
+                                         "api.squareup.com",
+                                         "api-global.squareup.com",
+                                         "geolocation.onetrust.com"
+                                     ],
+                           "subtree":  [
+                                           "tidal.com"
+                                       ]
+                       },
+                       {
+                           "key":  "supercell",
+                           "name":  "Supercell",
+                           "exact":  [
+                                         "accounts.supercell.com",
+                                         "cdn.id.supercell.com",
+                                         "clashofclans.inbox.supercell.com",
+                                         "game-assets.brawlstarsgame.com",
+                                         "game-assets.clashofclans.com",
+                                         "game-assets.clashroyaleapp.com",
+                                         "security.id.supercell.com",
+                                         "store.supercell.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "deepl",
+                           "name":  "DeepL",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "deepl.com"
+                                       ]
+                       },
+                       {
+                           "key":  "deezer",
+                           "name":  "Deezer",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "deezer.com",
+                                           "dzcdn.net"
+                                       ]
+                       },
+                       {
+                           "key":  "weather",
+                           "name":  "Weather.com",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "weather.com"
+                                       ]
+                       },
+                       {
+                           "key":  "trae",
+                           "name":  "Trae",
+                           "exact":  [
+                                         "api16-normal-alisg.mchost.guru",
+                                         "trae-api-sg.mchost.guru"
+                                     ],
+                           "subtree":  [
+                                           "trae.ai"
+                                       ]
+                       },
+                       {
+                           "key":  "linear",
+                           "name":  "Linear",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "linear.app"
+                                       ]
+                       },
+                       {
+                           "key":  "windsurf",
+                           "name":  "Windsurf / Codeium",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "codeium.com",
+                                           "windsurf.com"
+                                       ]
+                       },
+                       {
+                           "key":  "twitch",
+                           "name":  "Twitch",
+                           "exact":  [
+                                         "gql.twitch.tv",
+                                         "usher.ttvnw.net"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "manus",
+                           "name":  "Manus",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "manus.im"
+                                       ]
+                       },
+                       {
+                           "key":  "notion",
+                           "name":  "Notion",
+                           "exact":  [
+                                         "app.notion.com"
+                                     ],
+                           "subtree":  [
+                                           "notion.so"
+                                       ]
+                       },
+                       {
+                           "key":  "canva",
+                           "name":  "Canva",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "canva.com"
+                                       ]
+                       },
+                       {
+                           "key":  "intel",
+                           "name":  "Intel",
+                           "exact":  [
+                                         "www.intel.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "dell",
+                           "name":  "Dell",
+                           "exact":  [
+                                         "afcs.dellcdn.com",
+                                         "dds.dell.com",
+                                         "i.dell.com",
+                                         "nexus.dell.com",
+                                         "www.dell.com"
+                                     ],
+                           "subtree":  [
+                                           "dellcdn.com"
+                                       ]
+                       },
+                       {
+                           "key":  "tiktok",
+                           "name":  "TikTok",
+                           "exact":  [
+                                         "www.tiktok.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "archive",
+                           "name":  "Archive.org",
+                           "exact":  [
+                                         "web.archive.org"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "nvidia",
+                           "name":  "NVIDIA",
+                           "exact":  [
+                                         "developer.nvidia.com"
+                                     ],
+                           "subtree":  [
+                                           "cloudmatchbeta.nvidiagrid.net"
+                                       ]
+                       },
+                       {
+                           "key":  "parsec",
+                           "name":  "Parsec",
+                           "exact":  [
+                                         "builds.parsec.app"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "triage",
+                           "name":  "Tria.ge",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "tria.ge"
+                                       ]
+                       },
+                       {
+                           "key":  "qwant",
+                           "name":  "Qwant",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "qwant.com"
+                                       ]
+                       },
+                       {
+                           "key":  "guidedhacking",
+                           "name":  "GuidedHacking",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "guidedhacking.com"
+                                       ]
+                       },
+                       {
+                           "key":  "framer",
+                           "name":  "Framer",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "framer.com"
+                                       ]
+                       },
+                       {
+                           "key":  "autodesk",
+                           "name":  "Autodesk",
+                           "exact":  [
+                                         "accounts.autodesk.com",
+                                         "www.autodesk.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "pumpfun",
+                           "name":  "Pump.fun",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "pump.fun"
+                                       ]
+                       },
+                       {
+                           "key":  "elgato",
+                           "name":  "Elgato",
+                           "exact":  [
+                                         "www.elgato.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "imgur",
+                           "name":  "Imgur",
+                           "exact":  [
+                                         "api.imgur.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "dyson",
+                           "name":  "Dyson",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "dyson.com",
+                                           "dyson.fr"
+                                       ]
+                       },
+                       {
+                           "key":  "broadcom",
+                           "name":  "Broadcom",
+                           "exact":  [
+                                         "access.broadcom.com",
+                                         "knowledge.broadcom.com",
+                                         "profile.broadcom.com",
+                                         "support.broadcom.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "patreon",
+                           "name":  "Patreon",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "patreon.com",
+                                           "patreonusercontent.com"
+                                       ]
+                       },
+                       {
+                           "key":  "strava",
+                           "name":  "Strava",
+                           "exact":  [
+                                         "c.strava.com",
+                                         "cdn-1.strava.com",
+                                         "graphql.strava.com",
+                                         "tiles.strava.com",
+                                         "www.strava.com"
+                                     ],
+                           "subtree":  [
+                                           "strava.com"
+                                       ]
+                       },
+                       {
+                           "key":  "soundcloud",
+                           "name":  "SoundCloud",
+                           "exact":  [
+                                         "api-v2.soundcloud.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "clickup",
+                           "name":  "ClickUp",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "clickup.com",
+                                           "clickup-attachments.com",
+                                           "clickup-eu.com",
+                                           "clickup-prod.com",
+                                           "clickup-sg.com"
+                                       ]
+                       },
+                       {
+                           "key":  "datacamp",
+                           "name":  "DataCamp",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "datacamp.com"
+                                       ]
+                       },
+                       {
+                           "key":  "discordme",
+                           "name":  "Discord.me",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "discord.me"
+                                       ]
+                       },
+                       {
+                           "key":  "easydmarc",
+                           "name":  "EasyDMARC",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "easydmarc.com"
+                                       ]
+                       },
+                       {
+                           "key":  "genspark",
+                           "name":  "Genspark",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "genspark.ai"
+                                       ]
+                       },
+                       {
+                           "key":  "httptoolkit",
+                           "name":  "HTTP Toolkit",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "httptoolkit.com"
+                                       ]
+                       },
+                       {
+                           "key":  "hume",
+                           "name":  "Hume AI",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "hume.ai"
+                                       ]
+                       },
+                       {
+                           "key":  "hybridanalysis",
+                           "name":  "Hybrid Analysis",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "hybrid-analysis.com"
+                                       ]
+                       },
+                       {
+                           "key":  "lastfm",
+                           "name":  "Last.fm / AudioScrobbler",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "last.fm",
+                                           "ws.audioscrobbler.com"
+                                       ]
+                       },
+                       {
+                           "key":  "m3u",
+                           "name":  "M3U.in",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "m3u.in"
+                                       ]
+                       },
+                       {
+                           "key":  "mongodb",
+                           "name":  "MongoDB",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "mongodb.com"
+                                       ]
+                       },
+                       {
+                           "key":  "netacad",
+                           "name":  "Cisco NetAcad",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "netacad.com"
+                                       ]
+                       },
+                       {
+                           "key":  "snapeda",
+                           "name":  "SnapEDA",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "snapeda.com"
+                                       ]
+                       },
+                       {
+                           "key":  "tempnumber",
+                           "name":  "Temp-Number.org",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "temp-number.org"
+                                       ]
+                       },
+                       {
+                           "key":  "ti",
+                           "name":  "Texas Instruments",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "ti.com"
+                                       ]
+                       },
+                       {
+                           "key":  "analog",
+                           "name":  "Analog Devices",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "analog.com"
+                                       ]
+                       },
+                       {
+                           "key":  "uizard",
+                           "name":  "Uizard",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "uizard.io"
+                                       ]
+                       },
+                       {
+                           "key":  "wikidot",
+                           "name":  "Wikidot",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "wikidot.com"
+                                       ]
+                       },
+                       {
+                           "key":  "xdaforums",
+                           "name":  "XDA Forums",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "xdaforums.com"
+                                       ]
+                       },
+                       {
+                           "key":  "metadefender",
+                           "name":  "MetaDefender",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "metadefender.com"
+                                       ]
+                       },
+                       {
+                           "key":  "anixsekai",
+                           "name":  "AniXsekai",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "anixsekai.com"
+                                       ]
+                       },
+                       {
+                           "key":  "augment",
+                           "name":  "Augment Code",
+                           "exact":  [
+
+                                     ],
+                           "subtree":  [
+                                           "augmentcode.com"
+                                       ]
+                       },
+                       {
+                           "key":  "lovable",
+                           "name":  "Lovable / Vercel AI Gateway",
+                           "exact":  [
+                                         "ai-gateway.vercel.sh",
+                                         "api.loveable.dev"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "posthog",
+                           "name":  "PostHog",
+                           "exact":  [
+                                         "eu.posthog.com",
+                                         "us.posthog.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "linuxgsm",
+                           "name":  "LinuxGSM / TechnicalRamblings",
+                           "exact":  [
+                                         "linuxgsm.com",
+                                         "technicalramblings.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       },
+                       {
+                           "key":  "other",
+                           "name":  "Other / new domains",
+                           "exact":  [
+                                         "api.fitbit.com"
+                                     ],
+                           "subtree":  [
+
+                                       ]
+                       }
+                   ]
+}
